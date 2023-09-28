@@ -49,7 +49,7 @@ class LoginForm extends Component {
     const data = await response.json()
     const {userId} = data
     console.log(userId)
-    this.setState({user: userId})
+    this.setState({user: userId, showSubmit: false})
   }
 
   onSubmitFailure = errorMsg => {
