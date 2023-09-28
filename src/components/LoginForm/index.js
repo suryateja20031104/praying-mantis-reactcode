@@ -30,7 +30,7 @@ class LoginForm extends Component {
   }
 
   onSubmitSuccess = async () => {
-    const url = 'https://praying-mantis-ms2.onrender.com/userDetailsAdd/'
+    const url = 'https://pray-mantis-ms2.onrender.com/userDetailsAdd/'
     const {username, email, age, location} = this.state
     const userDetails = {
       username,
